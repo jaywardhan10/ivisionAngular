@@ -1,0 +1,122 @@
+.nav-fixed-top {
+    box-shadow: 1px 0 6px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    padding: 12px 30px 14px;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner {
+    flex-direction: row;
+    display: flex;
+    height: 100%;
+}
+.header-wrap-inner .left-part {
+    flex: 2 1;
+    flex-direction: row;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .left-part .menu-icon {
+    background-color: #fbfbfb;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+icon {
+    cursor: pointer;
+    flex-direction: column;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.nav-fixed-top .header-wrap .menu-icon .middle-line, .nav-fixed-top .header-wrap .menu-icon .top-line {
+    width: 23px;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .left-part .logo {
+    width: 150px;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .left-part .logo img {
+    margin-bottom: 0;
+    width: 100%;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .right-part {
+    flex: 4 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-fixed-top .header-wrap .nav-item {
+    padding-right: 8px;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .right-part .nav-link {
+    position: relative;
+    color: #000;
+    padding: 0 22px;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .right-part .nav-link .link {
+    color: #000;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .right-part .nav-link .link[aria-current=page] {
+    color: #007cdc;
+}
+.text-decoration-none {
+    text-decoration: none!important;
+}
+.nav-fixed-top .header-wrap .header-wrap-inner .tel-icon {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: #007cdc;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 4px 6px 7px 7px rgba(0,0,0,.05);
+}
+.text-white {
+    color: #fff!important;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #17161a;
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 60px;
+    text-align: center;
+    z-index: 11;
+}
+.nav-fixed-top .header-wrap .menu-icon span {
+    margin: 3px 0;
+    display: block;
+    height: 2px;
+    background-color: #17161a;
+}
+.nav-fixed-top[_ngcontent-bub-c16] .header-wrap[_ngcontent-bub-c16] .menu-icon[_ngcontent-bub-c16] .middle-line[_ngcontent-bub-c16], .nav-fixed-top[_ngcontent-bub-c16] .header-wrap[_ngcontent-bub-c16] .menu-icon[_ngcontent-bub-c16] .top-line[_ngcontent-bub-c16] {
+    width: 30px;
+}
+.nav-fixed-top .header-wrap .menu-icon .bottom-line {
+    width: 21px;
+}

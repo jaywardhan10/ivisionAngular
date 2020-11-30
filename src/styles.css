@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.css';
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: SpaceGrotesk-Bold; */
+    font-weight: 500;
+    line-height: 1.2;
+}
